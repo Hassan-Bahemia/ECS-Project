@@ -41,10 +41,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\Spawners\MoveSystem.cs" />
-     <Compile Include="Assets\Scripts\Spawners\SpawnSystem.cs" />
-     <Compile Include="Assets\Scripts\Spawners\MoveComponent.cs" />
-     <Compile Include="Assets\Scripts\Spawners\SpawnComponent.cs" />
+     <Compile Include="Assets\Scripts\Spawners\EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Data\EnemyComponentData.cs" />
+     <Compile Include="Assets\Scripts\Enemy\EnemySystem.cs" />
+     <Compile Include="Assets\Scripts\Data\ShooterComponentData.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -782,6 +782,15 @@
      </Reference>
      <Reference Include="Unity.VisualScripting.State">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Physics">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Physics.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Physics.Hybrid">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Physics.Hybrid.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Physics.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Physics.Editor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>

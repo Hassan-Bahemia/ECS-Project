@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637777164906796868
-    m_Hash: 1707721853
+      ticks: 637781468115026515
+    m_Hash: 1505867934
   m_LockFileStatus:
     m_FilePath: C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637777164906866880
-    m_Hash: 3857653897
+      ticks: 637781468115096538
+    m_Hash: 1530554892
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -248,9 +248,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -274,9 +276,11 @@ m_ResolvedPackages:
     - 1.14.1
     - 1.14.4
     - 1.14.7
+    - 1.14.9
     - 1.15.1
     - 1.15.4
     - 1.15.7
+    - 1.15.9
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -556,6 +560,163 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 1.2.3
+    nextVersion: 
+- packageId: com.unity.physics@0.6.0-preview.3
+  testable: 0
+  isDirectDependency: 1
+  version: 0.6.0-preview.3
+  source: 1
+  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.physics@0.6.0-preview.3
+  assetPath: Packages/com.unity.physics
+  name: com.unity.physics
+  displayName: Unity Physics
+  author:
+    name: 
+    email: 
+    url: 
+  category: Unity
+  type: 
+  description: 'Unity''s C# stateless physics library.
+
+
+    Built on top of the
+    Unity C# DOTS framework, Unity Physics is network-ready, completely customizable,
+    and built for performance out of the box. Whether you''re building the next mobile
+    hit or a new networked multiplayer console experience, Unity Physics leverages
+    the Burst compiler and Job system to scale across a range of hardware.
+
+
+    Unity
+    Physics is currently in preview, and is compatible with Unity 2019.3 and newer.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.1-preview.1
+    - 0.0.2-preview.1
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 0.2.5-preview.1
+    - 0.3.0-preview.1
+    - 0.3.1-preview
+    - 0.3.2-preview
+    - 0.4.0-preview.5
+    - 0.4.1-preview
+    - 0.5.0-preview.1
+    - 0.5.1-preview.2
+    - 0.6.0-preview.3
+    compatible:
+    - 0.0.1-preview.1
+    - 0.0.2-preview.1
+    - 0.1.0-preview
+    - 0.2.0-preview
+    - 0.2.2-preview
+    - 0.2.3-preview
+    - 0.2.4-preview
+    - 0.2.5-preview
+    - 0.2.5-preview.1
+    - 0.3.0-preview.1
+    - 0.3.1-preview
+    - 0.3.2-preview
+    - 0.4.0-preview.5
+    - 0.4.1-preview
+    - 0.5.0-preview.1
+    - 0.5.1-preview.2
+    - 0.6.0-preview.3
+    verified: 
+  dependencies:
+  - name: com.unity.burst
+    version: 1.4.1
+  - name: com.unity.collections
+    version: 0.15.0-preview.21
+  - name: com.unity.entities
+    version: 0.17.0-preview.41
+  - name: com.unity.jobs
+    version: 0.8.0-preview.23
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.test-framework
+    version: 1.1.11
+  - name: com.unity.test-framework.performance
+    version: 2.3.1-preview
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.burst
+    version: 1.5.6
+  - name: com.unity.mathematics
+    version: 1.2.1
+  - name: com.unity.collections
+    version: 0.15.0-preview.21
+  - name: com.unity.test-framework.performance
+    version: 2.3.1-preview
+  - name: com.unity.test-framework
+    version: 1.1.24
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  - name: com.unity.entities
+    version: 0.17.0-preview.42
+  - name: com.unity.properties
+    version: 1.6.0-preview
+  - name: com.unity.nuget.mono-cecil
+    version: 0.1.6-preview.2
+  - name: nuget.mono-cecil
+    version: 0.1.6-preview
+  - name: com.unity.serialization
+    version: 1.6.2-preview
+  - name: com.unity.jobs
+    version: 0.8.0-preview.23
+  - name: com.unity.modules.assetbundle
+    version: 1.0.0
+  - name: com.unity.scriptablebuildpipeline
+    version: 1.15.2
+  - name: com.unity.platforms
+    version: 0.10.0-preview.10
+  - name: com.unity.properties.ui
+    version: 1.6.2-preview.1
+  - name: com.unity.modules.uielements
+    version: 1.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
+  keywords:
+  - unity
+  - physics
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637469315570000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/Unity.Physics.git
+    revision: 6ec1fba588df68052879913d6e4b14ed3714e90e
+    path: 
+  unityLifecycle:
+    version: 
     nextVersion: 
 - packageId: com.unity.rendering.hybrid@0.11.0-preview.44
   testable: 0
@@ -3414,146 +3575,6 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-- packageId: com.unity.nuget.newtonsoft-json@2.0.0
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.0
-  source: 1
-  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
-  assetPath: Packages/com.unity.nuget.newtonsoft-json
-  name: com.unity.nuget.newtonsoft-json
-  displayName: Newtonsoft Json
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
-    synced to version 12.0.2.
-
-
-    This package is used for advanced json serialization
-    and deserialization. Most Unity users will be better suited using the existing
-    json tools built into Unity.
-
-    To avoid assembly clashes, please use this
-    package if you intend to use Newtonsoft Json.'
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 1.0.0-preview.2
-    - 1.0.0-preview.3
-    - 1.0.0-preview.4
-    - 1.0.1-preview.1
-    - 1.1.2
-    - 2.0.0-preview
-    - 2.0.0-preview.1
-    - 2.0.0-preview.2
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    compatible:
-    - 2.0.0
-    - 2.0.1-preview.1
-    - 2.0.2
-    verified: 2.0.2
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637237898320000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
-    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
-    path: 
-  unityLifecycle:
-    version: 2.0.0
-    nextVersion: 
-- packageId: com.unity.mathematics@1.2.1
-  testable: 0
-  isDirectDependency: 0
-  version: 1.2.1
-  source: 1
-  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.mathematics@1.2.1
-  assetPath: Packages/com.unity.mathematics
-  name: com.unity.mathematics
-  displayName: Mathematics
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: Unity's C# SIMD math library providing vector types and math functions
-    with a shader like syntax.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.0.12-preview.2
-    - 0.0.12-preview.5
-    - 0.0.12-preview.8
-    - 0.0.12-preview.10
-    - 0.0.12-preview.11
-    - 0.0.12-preview.13
-    - 0.0.12-preview.17
-    - 0.0.12-preview.19
-    - 0.0.12-preview.20
-    - 1.0.0-preview.1
-    - 1.0.1
-    - 1.1.0-preview.1
-    - 1.1.0
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    compatible:
-    - 1.2.1
-    - 1.2.4
-    - 1.2.5
-    verified: 1.2.5
-  dependencies: []
-  resolvedDependencies: []
-  keywords:
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637324062630000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/Unity.Mathematics.git
-    revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
-    path: 
-  unityLifecycle:
-    version: 1.2.1
-    nextVersion: 
 - packageId: com.unity.collections@0.15.0-preview.21
   testable: 0
   isDirectDependency: 0
@@ -3712,6 +3733,217 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
+- packageId: com.unity.jobs@0.8.0-preview.23
+  testable: 0
+  isDirectDependency: 0
+  version: 0.8.0-preview.23
+  source: 1
+  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.jobs@0.8.0-preview.23
+  assetPath: Packages/com.unity.jobs
+  name: com.unity.jobs
+  displayName: Jobs
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: The Jobs package provides additional job types like IJobParallelForBatch,
+    IJobParallelForDefer, and IJobParallelForFilter.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.7-preview.1
+    - 0.0.7-preview.2
+    - 0.0.7-preview.3
+    - 0.0.7-preview.4
+    - 0.0.7-preview.5
+    - 0.0.7-preview.6
+    - 0.0.7-preview.7
+    - 0.0.7-preview.8
+    - 0.0.7-preview.9
+    - 0.0.7-preview.10
+    - 0.0.7-preview.11
+    - 0.0.7-preview.12
+    - 0.0.7-preview.13
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.2.1-preview.3
+    - 0.2.2-preview.6
+    - 0.2.3-preview.9
+    - 0.2.4-preview.11
+    - 0.2.5-preview.20
+    - 0.2.6-preview.13
+    - 0.2.7-preview.11
+    - 0.2.8-preview.3
+    - 0.2.9-preview.15
+    - 0.2.10-preview.11
+    - 0.2.10-preview.12
+    - 0.2.10-preview.13
+    - 0.4.0-preview.18
+    - 0.5.0-preview.14
+    - 0.7.0-preview.17
+    - 0.8.0-preview.23
+    - 0.11.0-preview.5
+    - 0.11.0-preview.6
+    compatible:
+    - 0.0.7-preview.1
+    - 0.0.7-preview.2
+    - 0.0.7-preview.3
+    - 0.0.7-preview.4
+    - 0.0.7-preview.5
+    - 0.0.7-preview.6
+    - 0.0.7-preview.7
+    - 0.0.7-preview.8
+    - 0.0.7-preview.9
+    - 0.0.7-preview.10
+    - 0.0.7-preview.11
+    - 0.0.7-preview.12
+    - 0.0.7-preview.13
+    - 0.1.0-preview
+    - 0.1.1-preview
+    - 0.2.0-preview.13
+    - 0.2.1-preview.3
+    - 0.2.2-preview.6
+    - 0.2.3-preview.9
+    - 0.2.4-preview.11
+    - 0.2.5-preview.20
+    - 0.2.6-preview.13
+    - 0.2.7-preview.11
+    - 0.2.8-preview.3
+    - 0.2.9-preview.15
+    - 0.2.10-preview.11
+    - 0.2.10-preview.12
+    - 0.2.10-preview.13
+    - 0.4.0-preview.18
+    - 0.5.0-preview.14
+    - 0.7.0-preview.17
+    - 0.8.0-preview.23
+    - 0.11.0-preview.5
+    - 0.11.0-preview.6
+    verified: 
+  dependencies:
+  - name: com.unity.collections
+    version: 0.15.0-preview.21
+  - name: com.unity.mathematics
+    version: 1.2.1
+  resolvedDependencies:
+  - name: com.unity.collections
+    version: 0.15.0-preview.21
+  - name: com.unity.test-framework.performance
+    version: 2.3.1-preview
+  - name: com.unity.test-framework
+    version: 1.1.24
+  - name: com.unity.ext.nunit
+    version: 1.0.6
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.nuget.newtonsoft-json
+    version: 2.0.0
+  - name: com.unity.burst
+    version: 1.5.6
+  - name: com.unity.mathematics
+    version: 1.2.1
+  keywords:
+  - dots
+  - jobs
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637469313560000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/dots.git
+    revision: 011950b3e6b7c3fabea375fdac55ad367be62814
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.mathematics@1.2.1
+  testable: 0
+  isDirectDependency: 0
+  version: 1.2.1
+  source: 1
+  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.mathematics@1.2.1
+  assetPath: Packages/com.unity.mathematics
+  name: com.unity.mathematics
+  displayName: Mathematics
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: Unity's C# SIMD math library providing vector types and math functions
+    with a shader like syntax.
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 0.0.12-preview.2
+    - 0.0.12-preview.5
+    - 0.0.12-preview.8
+    - 0.0.12-preview.10
+    - 0.0.12-preview.11
+    - 0.0.12-preview.13
+    - 0.0.12-preview.17
+    - 0.0.12-preview.19
+    - 0.0.12-preview.20
+    - 1.0.0-preview.1
+    - 1.0.1
+    - 1.1.0-preview.1
+    - 1.1.0
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    compatible:
+    - 1.2.1
+    - 1.2.4
+    - 1.2.5
+    verified: 1.2.5
+  dependencies: []
+  resolvedDependencies: []
+  keywords:
+  - unity
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637324062630000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: git+https://github.com/Unity-Technologies/Unity.Mathematics.git
+    revision: 71412d94b7a0b0fdbb3195a5e6559bf6a761e91a
+    path: 
+  unityLifecycle:
+    version: 1.2.1
+    nextVersion: 
 - packageId: com.unity.test-framework.performance@2.3.1-preview
   testable: 0
   isDirectDependency: 0
@@ -3773,6 +4005,11 @@ m_ResolvedPackages:
     - 2.1.0-preview
     - 2.2.0-preview
     - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
     compatible:
     - 1.3.3-preview
     - 2.0.1-preview
@@ -3785,6 +4022,11 @@ m_ResolvedPackages:
     - 2.1.0-preview
     - 2.2.0-preview
     - 2.3.1-preview
+    - 2.4.1-preview
+    - 2.5.1-preview
+    - 2.6.0-preview
+    - 2.7.0-preview
+    - 2.8.0-preview
     verified: 
   dependencies:
   - name: com.unity.test-framework
@@ -3827,6 +4069,77 @@ m_ResolvedPackages:
     path: 
   unityLifecycle:
     version: 
+    nextVersion: 
+- packageId: com.unity.nuget.newtonsoft-json@2.0.0
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.0
+  source: 1
+  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+  assetPath: Packages/com.unity.nuget.newtonsoft-json
+  name: com.unity.nuget.newtonsoft-json
+  displayName: Newtonsoft Json
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Newtonsoft Json for use in Unity projects and Unity packages. Currently
+    synced to version 12.0.2.
+
+
+    This package is used for advanced json serialization
+    and deserialization. Most Unity users will be better suited using the existing
+    json tools built into Unity.
+
+    To avoid assembly clashes, please use this
+    package if you intend to use Newtonsoft Json.'
+  status: 4
+  errors: []
+  versions:
+    all:
+    - 1.0.0-preview.2
+    - 1.0.0-preview.3
+    - 1.0.0-preview.4
+    - 1.0.1-preview.1
+    - 1.1.2
+    - 2.0.0-preview
+    - 2.0.0-preview.1
+    - 2.0.0-preview.2
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    compatible:
+    - 2.0.0
+    - 2.0.1-preview.1
+    - 2.0.2
+    verified: 2.0.2
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+  hasRegistry: 1
+  hideInEditor: 1
+  entitlements:
+    isAllowed: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637237898320000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.newtonsoft-json.git
+    revision: d2fd6ed876261bbd82f59199ad711e7667bf633a
+    path: 
+  unityLifecycle:
+    version: 2.0.0
     nextVersion: 
 - packageId: com.unity.nuget.mono-cecil@0.1.6-preview.2
   testable: 0
@@ -3897,144 +4210,6 @@ m_ResolvedPackages:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.nuget.mono-cecil.git
     revision: a4a04e8951e3501659276618cb3e5e9b29210dd0
-    path: 
-  unityLifecycle:
-    version: 
-    nextVersion: 
-- packageId: com.unity.jobs@0.8.0-preview.23
-  testable: 0
-  isDirectDependency: 0
-  version: 0.8.0-preview.23
-  source: 1
-  resolvedPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project\Library\PackageCache\com.unity.jobs@0.8.0-preview.23
-  assetPath: Packages/com.unity.jobs
-  name: com.unity.jobs
-  displayName: Jobs
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: The Jobs package provides additional job types like IJobParallelForBatch,
-    IJobParallelForDefer, and IJobParallelForFilter.
-  status: 4
-  errors: []
-  versions:
-    all:
-    - 0.0.7-preview.1
-    - 0.0.7-preview.2
-    - 0.0.7-preview.3
-    - 0.0.7-preview.4
-    - 0.0.7-preview.5
-    - 0.0.7-preview.6
-    - 0.0.7-preview.7
-    - 0.0.7-preview.8
-    - 0.0.7-preview.9
-    - 0.0.7-preview.10
-    - 0.0.7-preview.11
-    - 0.0.7-preview.12
-    - 0.0.7-preview.13
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.2.1-preview.3
-    - 0.2.2-preview.6
-    - 0.2.3-preview.9
-    - 0.2.4-preview.11
-    - 0.2.5-preview.20
-    - 0.2.6-preview.13
-    - 0.2.7-preview.11
-    - 0.2.8-preview.3
-    - 0.2.9-preview.15
-    - 0.2.10-preview.11
-    - 0.2.10-preview.12
-    - 0.2.10-preview.13
-    - 0.4.0-preview.18
-    - 0.5.0-preview.14
-    - 0.7.0-preview.17
-    - 0.8.0-preview.23
-    compatible:
-    - 0.0.7-preview.1
-    - 0.0.7-preview.2
-    - 0.0.7-preview.3
-    - 0.0.7-preview.4
-    - 0.0.7-preview.5
-    - 0.0.7-preview.6
-    - 0.0.7-preview.7
-    - 0.0.7-preview.8
-    - 0.0.7-preview.9
-    - 0.0.7-preview.10
-    - 0.0.7-preview.11
-    - 0.0.7-preview.12
-    - 0.0.7-preview.13
-    - 0.1.0-preview
-    - 0.1.1-preview
-    - 0.2.0-preview.13
-    - 0.2.1-preview.3
-    - 0.2.2-preview.6
-    - 0.2.3-preview.9
-    - 0.2.4-preview.11
-    - 0.2.5-preview.20
-    - 0.2.6-preview.13
-    - 0.2.7-preview.11
-    - 0.2.8-preview.3
-    - 0.2.9-preview.15
-    - 0.2.10-preview.11
-    - 0.2.10-preview.12
-    - 0.2.10-preview.13
-    - 0.4.0-preview.18
-    - 0.5.0-preview.14
-    - 0.7.0-preview.17
-    - 0.8.0-preview.23
-    verified: 
-  dependencies:
-  - name: com.unity.collections
-    version: 0.15.0-preview.21
-  - name: com.unity.mathematics
-    version: 1.2.1
-  resolvedDependencies:
-  - name: com.unity.collections
-    version: 0.15.0-preview.21
-  - name: com.unity.test-framework.performance
-    version: 2.3.1-preview
-  - name: com.unity.test-framework
-    version: 1.1.24
-  - name: com.unity.ext.nunit
-    version: 1.0.6
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.nuget.newtonsoft-json
-    version: 2.0.0
-  - name: com.unity.burst
-    version: 1.5.6
-  - name: com.unity.mathematics
-    version: 1.2.1
-  keywords:
-  - dots
-  - jobs
-  - unity
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-  hasRegistry: 1
-  hideInEditor: 1
-  entitlements:
-    isAllowed: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637469313560000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: git+https://github.com/Unity-Technologies/dots.git
-    revision: 011950b3e6b7c3fabea375fdac55ad367be62814
     path: 
   unityLifecycle:
     version: 
