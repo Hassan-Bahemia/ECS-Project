@@ -47,7 +47,10 @@
       <Path>Library/PackageCache/com.unity.modules.xr@1.0.0</Path>
       <Path>Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0</Path>
       <Path>Library/PackageCache/com.unity.physics@0.6.0-preview.3</Path>
+      <Path>Library/PackageCache/com.unity.postprocessing@3.1.1</Path>
+      <Path>Library/PackageCache/com.unity.probuilder@5.0.3</Path>
       <Path>Library/PackageCache/com.unity.rendering.hybrid@0.11.0-preview.44</Path>
+      <Path>Library/PackageCache/com.unity.settings-manager@1.0.3</Path>
       <Path>Library/PackageCache/com.unity.test-framework.performance@2.3.1-preview</Path>
       <Path>Library/PackageCache/com.unity.test-framework@1.1.24</Path>
       <Path>Library/PackageCache/com.unity.textmeshpro@3.0.6</Path>

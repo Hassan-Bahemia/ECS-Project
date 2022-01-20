@@ -15,11 +15,11 @@
     },
     {
       "FullName": "Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-14T00:22:30.334Z"
+      "LastWriteTime": "2022-01-20T19:40:59.664Z"
     },
     {
       "FullName": "Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-14T00:22:28.514Z"
+      "LastWriteTime": "2022-01-20T19:40:58.812Z"
     },
     {
       "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -55,7 +55,7 @@
     },
     {
       "FullName": "Unity.Transforms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-14T00:22:30.286Z"
+      "LastWriteTime": "2022-01-20T19:41:00.091Z"
     },
     {
       "FullName": "Unity.Scenes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -75,7 +75,7 @@
     },
     {
       "FullName": "Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-18T23:53:43.078Z"
+      "LastWriteTime": "2022-01-20T19:40:58.801Z"
     },
     {
       "FullName": "Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -95,7 +95,11 @@
     },
     {
       "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-19T00:29:50.752Z"
+      "LastWriteTime": "2022-01-20T20:44:17.287Z"
+    },
+    {
+      "FullName": "UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2021-06-02T17:21:56Z"
     }
   ],
   "Functions": [
@@ -3876,8 +3880,7 @@
         1,
         2,
         9,
-        7,
-        0
+        7
       ]
     },
     {
@@ -4064,10 +4067,96 @@
       ]
     },
     {
-      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[EnemySystem+<>c__DisplayClass_OnUpdate_LambdaJob1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[EnemySystem+<>c__DisplayClass_OnUpdate_LambdaJob1, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "e63c0c50b8877ea03af3cf42f3bc60ac",
-      "LinkName": "D51751A2ED42BA34",
+      "ModuleHash": "8ba8c0d80bfb34c9a8f92ebeefccdf60",
+      "LinkName": "827642F0D2230DEE",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        24,
+        9
+      ]
+    },
+    {
+      "FullName": "PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::RunWithoutJobSystem(Unity.Entities.ArchetypeChunkIterator*, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "10a62fa0c4bc535aad51b5a91ba9e8d1",
+      "LinkName": "DCD1A25F121FFAF8",
+      "AssemblyDependencyIndices": [
+        23,
+        1,
+        2,
+        3,
+        0,
+        5,
+        8,
+        9,
+        7,
+        24
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerControlSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerControlSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3d976abad0172e478eb2b1d3ef201595",
+      "LinkName": "B680644D89FA47E0",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerMoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerMoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6221bc14d796ebe32015e5559d63ff0f",
+      "LinkName": "FC43CDEB4D6F92C7",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        18,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerRotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerRotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b7b3ae212f3e1c8009640e0b240af5a0",
+      "LinkName": "8A2FA3A530903E68",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        18,
+        7,
+        13,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerSetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerSetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "6496298323a5762673224d9c81057f32",
+      "LinkName": "6152D9A2B9729E3F",
       "AssemblyDependencyIndices": [
         3,
         23,
@@ -4078,174 +4167,6 @@
         7,
         13,
         9
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+GeneratePhysicsShapeHashesJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+GeneratePhysicsShapeHashesJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "3cf79def2e2867f4357bc8c03a1b5b28",
-      "LinkName": "27160537727CD546",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        1,
-        2,
-        3,
-        7,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+CreateBlobAssetsJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+CreateBlobAssetsJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "08bea80d488c81e2a8a9283d50d80804",
-      "LinkName": "D8F043F32D695F3F",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        1,
-        2,
-        3,
-        7,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceConvexCollidersJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceConvexCollidersJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "c7e2dd439137f95485a027a24683bc82",
-      "LinkName": "C2BAAA43D57DE82E",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        3,
-        7,
-        1,
-        2,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceMeshCollidersJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceMeshCollidersJob[[UnityEngine.CapsuleCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "66db10d1b97ab4535741e6108aa81aab",
-      "LinkName": "D6AD03418723A466",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        3,
-        7,
-        1,
-        2,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+GeneratePhysicsShapeHashesJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+GeneratePhysicsShapeHashesJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "e0841ac67f684629e34904b8a5745360",
-      "LinkName": "F67681621A5AF98E",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        1,
-        2,
-        3,
-        7,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+CreateBlobAssetsJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+CreateBlobAssetsJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "9ea69f846c4de6e35fea82582d3f6a60",
-      "LinkName": "D03899168E8A5383",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        1,
-        2,
-        3,
-        7,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceConvexCollidersJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceConvexCollidersJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "84142c39664a3c8889ebd5cfde0972be",
-      "LinkName": "44E0C3015F7F6DA9",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        3,
-        7,
-        1,
-        2,
-        18,
-        9,
-        0,
-        10,
-        11
-      ]
-    },
-    {
-      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceMeshCollidersJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.Authoring.BaseShapeConversionSystem`1+ProduceMeshCollidersJob[[UnityEngine.BoxCollider, UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "22bd8f31aedba3d49ee0f13c8dde4bbe",
-      "LinkName": "8CEEC124ECC3E605",
-      "AssemblyDependencyIndices": [
-        5,
-        19,
-        21,
-        8,
-        3,
-        7,
-        1,
-        2,
-        18,
-        9,
-        0,
-        10,
-        11
       ]
     }
   ]

@@ -8,14 +8,21 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Data" t="Include">
-            <e p="EnemyComponentData.cs" t="Include" />
-            <e p="ShooterComponentData.cs" t="Include" />
+            <e p="InputComponentData.cs" t="Include" />
+            <e p="MovementCommandsComponentData.cs" t="Include" />
+            <e p="MovementParamComponentData.cs" t="Include" />
+            <e p="MovingUpDirectionComponentData.cs" t="Include" />
+            <e p="PlayerTagComponent.cs" t="Include" />
           </e>
-          <e p="Enemy" t="Include">
-            <e p="EnemySystem.cs" t="Include" />
+          <e p="MonoStuff" t="Include">
+            <e p="BootStrapper.cs" t="Include" />
           </e>
-          <e p="Spawners" t="Include">
-            <e p="EnemySpawner.cs" t="Include" />
+          <e p="Player" t="Include">
+            <e p="PlayerControlSystem.cs" t="Include" />
+            <e p="PlayerInputSystem.cs" t="Include" />
+            <e p="PlayerMoveSystem.cs" t="Include" />
+            <e p="PlayerRotateSystem.cs" t="Include" />
+            <e p="PlayerSetMoveDirectionToUpSystem.cs" t="Include" />
           </e>
         </e>
       </e>
