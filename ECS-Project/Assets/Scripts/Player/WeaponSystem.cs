@@ -46,22 +46,7 @@ public class WeaponSystem : SystemBase
                 m_currentlinearCommand = 1,
             });
 
-            ecb.AddComponent(entityInQueryIndex, newProjectile, new ParticleEffectLink()
-            {
-                value = 1
-            });
-
         }).ScheduleParallel();
         m_endSimulationEntityCommandBufferSystem.AddJobHandleForProducer(Dependency);
     }
-}
-
-public struct ParticleEffectLink : IComponentData
-{
-    public int value;
-}
-
-
-public struct EffectIDSystemState : IComponentData
-{
 }

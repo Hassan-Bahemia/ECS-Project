@@ -95,7 +95,7 @@
     },
     {
       "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-21T19:28:42.309Z"
+      "LastWriteTime": "2022-01-21T20:19:26.145Z"
     },
     {
       "FullName": "Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -4572,7 +4572,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[WeaponSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[WeaponSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "a09981c7eaba773b97cfacffe4382396",
+      "ModuleHash": "b58b643aa2570d7b6c957e65ca4303b9",
       "LinkName": "FC1B09B6929D04B0",
       "AssemblyDependencyIndices": [
         3,

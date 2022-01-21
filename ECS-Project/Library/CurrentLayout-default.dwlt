@@ -101,7 +101,7 @@ MonoBehaviour:
   m_MinSize: {x: 537, y: 221}
   m_MaxSize: {x: 12004, y: 4021}
   vertical: 0
-  controlID: 67
+  controlID: 135
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -193,10 +193,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 812, y: 492}
-  m_MaxSize: {x: 16004, y: 14042}
+  m_MinSize: {x: 813, y: 492}
+  m_MaxSize: {x: 16005, y: 14042}
   vertical: 1
-  controlID: 64
+  controlID: 132
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -218,10 +218,10 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 947
-  m_MinSize: {x: 812, y: 492}
-  m_MaxSize: {x: 16004, y: 14042}
+  m_MinSize: {x: 813, y: 492}
+  m_MaxSize: {x: 16005, y: 14042}
   vertical: 0
-  controlID: 65
+  controlID: 133
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -246,7 +246,7 @@ MonoBehaviour:
   m_MinSize: {x: 537, y: 492}
   m_MaxSize: {x: 12004, y: 14042}
   vertical: 1
-  controlID: 66
+  controlID: 134
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -323,8 +323,8 @@ MonoBehaviour:
     y: 0
     width: 476
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 23}
   m_Panes:
   - {fileID: 23}
@@ -766,22 +766,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Player
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\hbahe\Documents\Repo\ECS-Project\ECS-Project
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: de9a0000
-    m_LastClickedID: 39646
-    m_ExpandedIDs: 000000000a990000e09a0000
+    scrollPos: {x: 0, y: 10}
+    m_SelectedIDs: 289c0000
+    m_LastClickedID: 39976
+    m_ExpandedIDs: 0000000064990000349b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -809,7 +809,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000000a990000
+    m_ExpandedIDs: 0000000064990000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -834,24 +834,24 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: 289c0000
+    m_LastClickedInstanceID: 39976
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000de360000ec3800007c8100001a830000b433020016de0000f0120100ee3f0000c840000098410000344100001042000012420000a8a3030000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: AsteroidTagComponent
+      m_OriginalName: AsteroidTagComponent
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 8792
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_CreateAssetUtility:
@@ -912,12 +912,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 749
-    width: 1313
+    width: 1443
     height: 250
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 38882
+  m_LastSelectedObjectID: 38800
 --- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -948,7 +948,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0c11fdff9211fdffd213fdfface5fdff8ef1fdff8e07feff44fbfffff4ffffff
+      m_ExpandedIDs: 26ecffffacecffffeceeffff46fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
