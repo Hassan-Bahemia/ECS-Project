@@ -19,7 +19,6 @@ GameObject:
   - component: {fileID: 3992886597124037787}
   - component: {fileID: 3992886597124037786}
   - component: {fileID: -9095630279097447475}
-  - component: {fileID: 7133093759920152883}
   m_Layer: 0
   m_Name: Asteroid_Green
   m_TagString: Untagged
@@ -376,17 +375,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_mustBeDestroyed: 0
---- !u!114 &7133093759920152883
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3992886597124037789}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b833dc0ef3d8ca40a781d4195324b6a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_maxLifeTime: 25
-  m_currentLifeTime: 0

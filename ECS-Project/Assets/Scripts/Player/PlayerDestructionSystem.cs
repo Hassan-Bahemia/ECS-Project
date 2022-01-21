@@ -19,6 +19,7 @@ public class PlayerDestructionSystem : SystemBase
                 {
                     m_entityManager.DestroyEntity(_entity);
                     BootStrapper.m_bootstrapperInstance.LookForPlayerSpawnPos();
+                    BootStrapper.m_bootstrapperInstance.m_lives--;
                 }
             }).Run();
     }

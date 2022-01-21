@@ -5,6 +5,7 @@ using Unity.Jobs;
 using Unity.Mathematics;
 using Unity.Transforms;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -21,12 +22,24 @@ public class BootStrapper : MonoBehaviour
     public float m_asteroidSpawnFrequency;
     public float m_increaseSpawnValue;
 
+    public int m_entitiesSpawned;
+    public int m_maxEntitiesCanBeSpawned;
+    public int m_score;
+    public int m_lives;
+
     private ValidateSpawnPosJob m_validateSpawnPosJob;
     private JobHandle m_jobHandle;
 
     public static BootStrapper m_bootstrapperInstance;
 
-    public Text m_curFrequency;
+    public Text m_curFrequencyText;
+    public Text m_entitiesSpawnedText;
+    public Text m_livesText;
+    public Text m_scoreText;
+    public Text m_finalScoreText;
+
+    public GameObject m_howToPlay;
+    public GameObject m_GameOver;
 
     private void Awake()
     {
@@ -47,6 +60,11 @@ public class BootStrapper : MonoBehaviour
         m_jobHandle = new JobHandle();
         m_validateSpawnPosJob = new ValidateSpawnPosJob();
         m_entityManager.CreateEntity(typeof(InputComponentData));
+        m_score = 0;
+        m_lives = 3;
+        m_GameOver.SetActive(false);
+        m_howToPlay.SetActive(true);
+        Time.timeScale = 0f;
         StartCoroutine(SpawnPlayerAtPosition(Vector3.zero));
     }
 
@@ -75,32 +93,64 @@ public class BootStrapper : MonoBehaviour
             m_currentlinearCommand = 1,
             m_currentAngularCommand = randomRotation
         });
+        m_entitiesSpawned++;
     }
 
     private void Update()
     {
         m_currentTimer += Time.deltaTime;
 
-        m_curFrequency.text = "Asteroid Frequency Spawn Rate: " + m_asteroidSpawnFrequency;
-        
+        m_curFrequencyText.text = "Asteroid Frequency Spawn Rate: " + m_asteroidSpawnFrequency;
+        m_entitiesSpawnedText.text = "Asteroid Entities Spawned: " + m_entitiesSpawned;
+        m_scoreText.text = "Score: " + m_score;
+        m_livesText.text = "Lives: " + m_lives;
+
+        if (m_howToPlay && Input.GetMouseButtonDown(1))
+        {
+            m_howToPlay.SetActive(false);
+            Time.timeScale = 1f;
+        }
+
         if (Input.GetKeyDown(KeyCode.Q)) {
             
-            m_asteroidSpawnFrequency += m_increaseSpawnValue;
+            m_asteroidSpawnFrequency -= m_increaseSpawnValue;
         }
 
         if (Input.GetKeyDown(KeyCode.E)) {
-            m_asteroidSpawnFrequency -= m_increaseSpawnValue;
+            m_asteroidSpawnFrequency += m_increaseSpawnValue;
         }
 
         if (m_asteroidSpawnFrequency <= 0.12f)
         {
             m_asteroidSpawnFrequency = 0.12f;
         }
+        
 
-        if (m_currentTimer > m_asteroidSpawnFrequency)
+        if (m_currentTimer > m_asteroidSpawnFrequency && m_entitiesSpawned != m_maxEntitiesCanBeSpawned)
         {
             m_currentTimer = 0;
             SpawnAsteroid();
+        }
+
+
+        if (m_entitiesSpawned == m_maxEntitiesCanBeSpawned)
+        {
+            m_entitiesSpawned = m_maxEntitiesCanBeSpawned;
+        }
+        
+        if (m_lives <= 0)
+        {
+            m_lives = 0;
+            m_GameOver.SetActive(true);
+            m_finalScoreText.text = "Final Score: " + m_score;
+            Time.timeScale = 0f;
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                m_lives = 3;
+                m_score = 0;
+                m_GameOver.SetActive(false);
+                m_howToPlay.SetActive(true);
+            }
         }
     }
 
