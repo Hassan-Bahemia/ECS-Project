@@ -18,7 +18,8 @@ public class BootStrapper : MonoBehaviour
     private Vector3[] m_spawnPositionsVectors;
 
     private float m_currentTimer;
-    public float m_asteroidSpawnFrequency;
+    public double m_asteroidSpawnFrequency;
+    public double m_increaseSpawnValue;
 
     private ValidateSpawnPosJob m_validateSpawnPosJob;
     private JobHandle m_jobHandle;
@@ -84,11 +85,16 @@ public class BootStrapper : MonoBehaviour
         
         if (Input.GetKeyDown(KeyCode.Q)) {
             
-            m_asteroidSpawnFrequency += 0.02f;
+            m_asteroidSpawnFrequency += m_increaseSpawnValue;
         }
 
         if (Input.GetKeyDown(KeyCode.E)) {
-            m_asteroidSpawnFrequency -= 0.02f;
+            m_asteroidSpawnFrequency -= m_increaseSpawnValue;
+        }
+
+        if (m_asteroidSpawnFrequency <= 0)
+        {
+            m_asteroidSpawnFrequency = 0;
         }
 
         if (m_currentTimer > m_asteroidSpawnFrequency)

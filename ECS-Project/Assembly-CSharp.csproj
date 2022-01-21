@@ -42,35 +42,35 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Data\PlayerTagComponent.cs" />
-     <Compile Include="Assets\Scripts\Data\MovementCommandsComponentData.cs" />
-     <Compile Include="Assets\Scripts\Player\PlayerControlSystem.cs" />
-     <Compile Include="Assets\Scripts\Data\InputComponentData.cs" />
-     <Compile Include="Assets\Scripts\MonoStuff\BootStrapper.cs" />
-     <Compile Include="Assets\Scripts\Data\OffScreenWrapperComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\ScreenInfoComponentData_Authoring.cs" />
-     <Compile Include="Assets\Scripts\Data\ScreenInfoComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\WeaponComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\OffScreenWrapperComponentData_Authoring.cs" />
-     <Compile Include="Assets\Scripts\Player\OffScreenWrappingSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\OffScreenDetectionSystem.cs" />
-     <Compile Include="Assets\Scripts\Data\LifeTimeComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\AsteroidLibrary_Authoring.cs" />
-     <Compile Include="Assets\Scripts\Data\MovementParametersComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\DestroyableComponentData.cs" />
-     <Compile Include="Assets\Scripts\Data\AsteroidTagComponent.cs" />
-     <Compile Include="Assets\Scripts\Data\ProjectileTagComponent.cs" />
-     <Compile Include="Assets\Scripts\Data\MovingInUpDirectionComponent.cs" />
-     <Compile Include="Assets\Scripts\Player\WeaponSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\OnPhysicsTriggerJobSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\MoveSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\PrepareForDestructionIfLifeTimeIsOverSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\RotateSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\SetMoveDirectionToUpSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\LaserDestructionSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\AsteroidDestructrionSystem.cs" />
-     <Compile Include="Assets\Scripts\Player\InputSystem.cs" />
      <Compile Include="Assets\Scripts\Player\PlayerDestructionSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\MovementCommandsComponentData.cs" />
+     <Compile Include="Assets\Scripts\Data\ProjectileTagComponent.cs" />
+     <Compile Include="Assets\Scripts\Player\SetMoveDirectionToUpSystem.cs" />
+     <Compile Include="Assets\Scripts\Player\OffScreenDetectionSystem.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerControlSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\ScreenInfoComponentData.cs" />
+     <Compile Include="Assets\Scripts\Data\InputComponentData.cs" />
+     <Compile Include="Assets\Scripts\Player\OnPhysicsTriggerJobSystem.cs" />
+     <Compile Include="Assets\Scripts\Player\RotateSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\OffScreenWrapperComponentData_Authoring.cs" />
+     <Compile Include="Assets\Scripts\Data\DestroyableComponentData.cs" />
+     <Compile Include="Assets\Scripts\Data\MovementParametersComponentData.cs" />
+     <Compile Include="Assets\Scripts\Data\LifeTimeComponentData.cs" />
+     <Compile Include="Assets\Scripts\Data\ScreenInfoComponentData_Authoring.cs" />
+     <Compile Include="Assets\Scripts\MonoStuff\BootStrapper.cs" />
+     <Compile Include="Assets\Scripts\Data\AsteroidTagComponent.cs" />
+     <Compile Include="Assets\Scripts\Data\WeaponComponentData.cs" />
+     <Compile Include="Assets\Scripts\Player\AsteroidDestructrionSystem.cs" />
+     <Compile Include="Assets\Scripts\Player\WeaponSystem.cs" />
      <Compile Include="Assets\Scripts\Data\PlayerLibraryComponentData_Authoring.cs" />
+     <Compile Include="Assets\Scripts\Player\PrepareForDestructionIfLifeTimeIsOverSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\OffScreenWrapperComponentData.cs" />
+     <Compile Include="Assets\Scripts\Player\MoveSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\AsteroidLibrary_Authoring.cs" />
+     <Compile Include="Assets\Scripts\Player\InputSystem.cs" />
+     <Compile Include="Assets\Scripts\Player\LaserDestructionSystem.cs" />
+     <Compile Include="Assets\Scripts\Data\MovingInUpDirectionComponent.cs" />
+     <Compile Include="Assets\Scripts\Player\OffScreenWrappingSystem.cs" />
      <Reference Include="UnityEngine">
      <HintPath>C:/Program Files/Unity/Hub/Editor/2021.1.10f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
@@ -680,8 +680,8 @@
      <Reference Include="Unity.Serialization">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Serialization.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VSCode.Editor">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor.CacheServer">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/UnityEditor.CacheServer.dll</HintPath>
@@ -689,8 +689,14 @@
      <Reference Include="Unity.TextMeshPro.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.VSCode.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.VisualScripting.State.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.State.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Searcher.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Rendering.Hybrid.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Rendering.Hybrid.Editor.dll</HintPath>
@@ -707,6 +713,9 @@
      <Reference Include="Unity.Rider.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.UI">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
      </Reference>
@@ -716,8 +725,14 @@
      <Reference Include="Unity.Properties.UI.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Properties.UI.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.ShaderGraph.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Scenes">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Scenes.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Mathematics.Extensions">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.dll</HintPath>
@@ -743,17 +758,20 @@
      <Reference Include="Unity.Mathematics.Extensions.Hybrid">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Mathematics.Extensions.Hybrid.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.Entities.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Entities.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Entities.BuildUtils">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Entities.BuildUtils.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.ProBuilder.AddOns.Editor">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualStudio.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.ProBuilder.AddOns.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Timeline">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
@@ -770,6 +788,9 @@
      <Reference Include="Unity.Burst.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Burst.Editor.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.Core.Runtime">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.ProBuilder.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ProBuilder.Editor.dll</HintPath>
      </Reference>
@@ -778,6 +799,9 @@
      </Reference>
      <Reference Include="Unity.Entities">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Entities.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.Entities.Hybrid">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
      </Reference>
      <Reference Include="Unity.Jobs.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Jobs.Editor.dll</HintPath>
@@ -788,9 +812,6 @@
      <Reference Include="Unity.VisualScripting.Flow">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.Flow.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.Entities.Hybrid">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Entities.Hybrid.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.VisualScripting.Core">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.Core.dll</HintPath>
      </Reference>
@@ -799,6 +820,9 @@
      </Reference>
      <Reference Include="Unity.Burst">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Burst.dll</HintPath>
+     </Reference>
+     <Reference Include="Unity.RenderPipelines.Universal.Editor">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
      </Reference>
      <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
@@ -815,6 +839,9 @@
      <Reference Include="Unity.Properties.UI">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Properties.UI.dll</HintPath>
      </Reference>
+     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+     </Reference>
      <Reference Include="Unity.ScriptableBuildPipeline">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ScriptableBuildPipeline.dll</HintPath>
      </Reference>
@@ -827,38 +854,11 @@
      <Reference Include="Unity.Rendering.Hybrid">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Rendering.Hybrid.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.VisualScripting.State">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.Runtime">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Shaders">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.Searcher.Editor">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Editor">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
-     </Reference>
      <Reference Include="Unity.RenderPipelines.Core.Editor">
      <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
      </Reference>
-     <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.ShaderGraph.Editor">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.ShaderGraph.Editor.dll</HintPath>
-     </Reference>
-     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
-     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+     <Reference Include="Unity.VisualScripting.State">
+     <HintPath>C:/Users/hbahe/Documents/Repo/ECS-Project/ECS-Project/Library/ScriptAssemblies/Unity.VisualScripting.State.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
