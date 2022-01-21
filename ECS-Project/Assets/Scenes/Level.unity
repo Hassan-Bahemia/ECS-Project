@@ -2139,6 +2139,7 @@ MonoBehaviour:
   - {fileID: 1007101194}
   - {fileID: 1313936809}
   m_asteroidSpawnFrequency: 0.12
+  m_increaseSpawnValue: 0.02
   m_curFrequency: {fileID: 1500128356}
 --- !u!4 &1764964803
 Transform:

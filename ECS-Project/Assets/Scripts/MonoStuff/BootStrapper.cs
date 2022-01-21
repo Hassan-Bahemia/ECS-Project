@@ -18,8 +18,8 @@ public class BootStrapper : MonoBehaviour
     private Vector3[] m_spawnPositionsVectors;
 
     private float m_currentTimer;
-    public double m_asteroidSpawnFrequency;
-    public double m_increaseSpawnValue;
+    public float m_asteroidSpawnFrequency;
+    public float m_increaseSpawnValue;
 
     private ValidateSpawnPosJob m_validateSpawnPosJob;
     private JobHandle m_jobHandle;
@@ -92,9 +92,9 @@ public class BootStrapper : MonoBehaviour
             m_asteroidSpawnFrequency -= m_increaseSpawnValue;
         }
 
-        if (m_asteroidSpawnFrequency <= 0)
+        if (m_asteroidSpawnFrequency <= 0.04f)
         {
-            m_asteroidSpawnFrequency = 0;
+            m_asteroidSpawnFrequency = 0.04f;
         }
 
         if (m_currentTimer > m_asteroidSpawnFrequency)
