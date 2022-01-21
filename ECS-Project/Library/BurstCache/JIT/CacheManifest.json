@@ -15,11 +15,11 @@
     },
     {
       "FullName": "Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-20T19:40:59.664Z"
+      "LastWriteTime": "2022-01-21T02:07:51.428Z"
     },
     {
       "FullName": "Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-20T19:40:58.812Z"
+      "LastWriteTime": "2022-01-21T02:09:29.747Z"
     },
     {
       "FullName": "UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -55,7 +55,7 @@
     },
     {
       "FullName": "Unity.Transforms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-20T19:41:00.091Z"
+      "LastWriteTime": "2022-01-21T02:07:51.062Z"
     },
     {
       "FullName": "Unity.Scenes, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -75,7 +75,7 @@
     },
     {
       "FullName": "Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-20T19:40:58.801Z"
+      "LastWriteTime": "2022-01-21T02:07:50.252Z"
     },
     {
       "FullName": "Unity.Physics.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -95,7 +95,11 @@
     },
     {
       "FullName": "Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-      "LastWriteTime": "2022-01-20T20:44:17.287Z"
+      "LastWriteTime": "2022-01-21T15:38:35.354Z"
+    },
+    {
+      "FullName": "Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+      "LastWriteTime": "2022-01-21T02:37:26.324Z"
     },
     {
       "FullName": "UnityEngine.InputLegacyModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -140,7 +144,7 @@
     {
       "FullName": "Unity.Rendering.JobNativeMultiHashMapVisitKeyValue+JobNativeMultiHashMapVisitKeyValueProducer`3[[Unity.Rendering.HybridV1SimpleCullingJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.LocalGroupKey, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.BatchChunkData, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.JobNativeMultiHashMapVisitKeyValue+JobNativeMultiHashMapVisitKeyValueProducer`3[[Unity.Rendering.HybridV1SimpleCullingJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.LocalGroupKey, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.BatchChunkData, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "8b53ff73c53ead942910e5d46867272f",
+      "ModuleHash": "9d57807f8690316fc5e79b19005c248a",
       "LinkName": "3F80981DF4D063D4",
       "AssemblyDependencyIndices": [
         4,
@@ -157,7 +161,7 @@
     {
       "FullName": "Unity.Rendering.JobNativeMultiHashMapVisitKeyMutableValue+JobNativeMultiHashMapVisitKeyMutableValueProducer`3[[Unity.Rendering.HybridV1SelectLodEnabled, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.LocalGroupKey, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.BatchChunkData, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.JobNativeMultiHashMapVisitKeyMutableValue+JobNativeMultiHashMapVisitKeyMutableValueProducer`3[[Unity.Rendering.HybridV1SelectLodEnabled, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.LocalGroupKey, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null],[Unity.Rendering.BatchChunkData, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "cb90dd7c84c661b7085f3ef578a41776",
+      "ModuleHash": "309bd9dc89d2f073204a4246c01e6f67",
       "LinkName": "AD32600A384833D8",
       "AssemblyDependencyIndices": [
         4,
@@ -400,7 +404,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.PrepareSkinMatrixSystemBase+<>c__DisplayClass_ConstructHashMap, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.PrepareSkinMatrixSystemBase+<>c__DisplayClass_ConstructHashMap, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "56b88abd32c12dd57237d1068485ce76",
+      "ModuleHash": "21256524659d6d416dc0efe4300b4945",
       "LinkName": "F42035D5C4356E46",
       "AssemblyDependencyIndices": [
         3,
@@ -416,7 +420,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.PrepareSkinMatrixSystemBase+<>c__DisplayClass_FlattenSkinMatrices, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.PrepareSkinMatrixSystemBase+<>c__DisplayClass_FlattenSkinMatrices, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "585eb41c1443d481237088b81503392e",
+      "ModuleHash": "e2acf9edd457c8bfec4a7fbce3270874",
       "LinkName": "2C379C4E80CCAFEA",
       "AssemblyDependencyIndices": [
         3,
@@ -433,7 +437,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.SelectLodEnabled, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.SelectLodEnabled, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "4e62cad00f035411cd4ee1f5fc0d6260",
+      "ModuleHash": "f9122afd8eeb44db5d578afc6a3695db",
       "LinkName": "9E47E163D2967825",
       "AssemblyDependencyIndices": [
         3,
@@ -449,7 +453,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.SimpleCullingJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.SimpleCullingJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "a766b6be03581bc67f3981087939e6ec",
+      "ModuleHash": "b479c128308d8073c1fb619d3038e5b0",
       "LinkName": "B9BE9F627AC76D9B",
       "AssemblyDependencyIndices": [
         3,
@@ -466,7 +470,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.UpdateAllHybridChunksJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.UpdateAllHybridChunksJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "7b0984c2763998848af374b033ded620",
+      "ModuleHash": "0fa04d9db1066e5825f8e5f50bf0a6d6",
       "LinkName": "C9C1EE309FA2468C",
       "AssemblyDependencyIndices": [
         3,
@@ -484,7 +488,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODRangesJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODRangesJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "00e96a628924d0be9d4074ec73953ddb",
+      "ModuleHash": "051611137bb4dd66956810a0dd5d1ca0",
       "LinkName": "0D2D1DD2E451E7F0",
       "AssemblyDependencyIndices": [
         3,
@@ -501,7 +505,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODGroupWorldReferencePointsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODGroupWorldReferencePointsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "d5e51f560a5d097be2ea0b4c315b99a9",
+      "ModuleHash": "980a0da2a0685489f03d6e91371aaee2",
       "LinkName": "7C6A4F41009E9BE1",
       "AssemblyDependencyIndices": [
         3,
@@ -518,7 +522,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODWorldReferencePointsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.LodRequirementsUpdateSystem+UpdateLODWorldReferencePointsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "2d2ac328e0b5e34e90247eb495017aa5",
+      "ModuleHash": "22fbe74cb86195c801cca27895af8938",
       "LinkName": "96BEEBD3FE718931",
       "AssemblyDependencyIndices": [
         3,
@@ -534,7 +538,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.MatrixPreviousSystem+UpdateMatrixPrevious, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.MatrixPreviousSystem+UpdateMatrixPrevious, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "a365017e145e4f258291ec885f544ba6",
+      "ModuleHash": "2e64e4f992361eb4719bad4beda71880",
       "LinkName": "CA8A75AF99FD5503",
       "AssemblyDependencyIndices": [
         3,
@@ -551,7 +555,7 @@
     {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.RenderBoundsUpdateSystem+BoundsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.RenderBoundsUpdateSystem+BoundsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "3797676e7c3f731f13a307018b37d9fd",
+      "ModuleHash": "e9140e1b19cb62a0de63b15a8e75e47c",
       "LinkName": "FF031EA991F5F00A",
       "AssemblyDependencyIndices": [
         3,
@@ -1005,7 +1009,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Rendering.HLODManager+UpdateLODChangesJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.HLODManager+UpdateLODChangesJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "77b506604a6befaffc60082bea2250cf",
+      "ModuleHash": "c6f01133eacc40f56e06c270936b3759",
       "LinkName": "2296DE393B48DD8A",
       "AssemblyDependencyIndices": [
         5,
@@ -1023,7 +1027,7 @@
     {
       "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Rendering.UpdateSceneBoundingVolumeFromRendererBounds+CollectSceneBoundsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.UpdateSceneBoundingVolumeFromRendererBounds+CollectSceneBoundsJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "f1fe5ac268e2a05a60199520d1398098",
+      "ModuleHash": "7d4b11419c3f8e24f904cdefbf74dc23",
       "LinkName": "F177C127B3D82711",
       "AssemblyDependencyIndices": [
         5,
@@ -1714,7 +1718,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.ZeroVisibleCounts, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.ZeroVisibleCounts&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "2a2d3ff9c407ef9340b3a1abe07ea99f",
+      "ModuleHash": "279843137cdd490ecad6fe0d53af1e9a",
       "LinkName": "620CE89C6987CFB4",
       "AssemblyDependencyIndices": [
         5,
@@ -1727,7 +1731,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.InitializeUnreferencedIndicesScatterJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.InitializeUnreferencedIndicesScatterJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "cc1e74515f6c82ba36d0c869de2b40f7",
+      "ModuleHash": "d7f75e92051521204a062e80c900574c",
       "LinkName": "6663BBB3555DE506",
       "AssemblyDependencyIndices": [
         5,
@@ -1740,7 +1744,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.UpdateNewHybridChunksJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.UpdateNewHybridChunksJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "788f83bae669e7e2ace31feb5e585b23",
+      "ModuleHash": "497914fd280bf7279261511c1073a756",
       "LinkName": "58B5D154A1D4B575",
       "AssemblyDependencyIndices": [
         5,
@@ -1757,7 +1761,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.ExecuteGpuUploads, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.ExecuteGpuUploads&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "a2375b1679503378d5966fce6e33d2f7",
+      "ModuleHash": "440661c2336259ff16b2d80210606828",
       "LinkName": "A963E5407F2511E6",
       "AssemblyDependencyIndices": [
         5,
@@ -1771,7 +1775,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.UploadBlitJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.UploadBlitJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "99c2d84bee7254e42e437d9b836595b5",
+      "ModuleHash": "348f5f189c8d9116d9672cef05b317f0",
       "LinkName": "EF43461E8FFCFBB7",
       "AssemblyDependencyIndices": [
         5,
@@ -1786,7 +1790,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.HybridRendererSystem+AABBClearJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.HybridRendererSystem+AABBClearJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "efc06fe1d6e69fc1461f7a984e0398a6",
+      "ModuleHash": "163b1014ae029f0682705239cbe4528c",
       "LinkName": "890DF3DBBA29A13F",
       "AssemblyDependencyIndices": [
         5,
@@ -1799,7 +1803,7 @@
     {
       "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Rendering.GatherChunkRenderers, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.GatherChunkRenderers&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "ddc65bb432f8f39843ebe22f74a423df",
+      "ModuleHash": "d8b27558eba068ae2baba88f2aa85f39",
       "LinkName": "2FF0DB635BB12BB0",
       "AssemblyDependencyIndices": [
         5,
@@ -1953,7 +1957,7 @@
     {
       "FullName": "UnityEngine.Jobs.IJobParallelForTransformExtensions+TransformParallelForLoopStruct`1[[Unity.Rendering.HLODManager+UpdateWorldReferencePointsJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Rendering.HLODManager+UpdateWorldReferencePointsJob&, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "c4b808ea45df034d9026a22fdf1bdb6a",
+      "ModuleHash": "9c4d5ad5a9c26f3fe0471cb66de9de88",
       "LinkName": "80A4E5720926D780",
       "AssemblyDependencyIndices": [
         5,
@@ -4067,44 +4071,9 @@
       ]
     },
     {
-      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "8ba8c0d80bfb34c9a8f92ebeefccdf60",
-      "LinkName": "827642F0D2230DEE",
-      "AssemblyDependencyIndices": [
-        3,
-        23,
-        1,
-        2,
-        5,
-        8,
-        7,
-        24,
-        9
-      ]
-    },
-    {
-      "FullName": "PlayerInputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::RunWithoutJobSystem(Unity.Entities.ArchetypeChunkIterator*, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
-      "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "10a62fa0c4bc535aad51b5a91ba9e8d1",
-      "LinkName": "DCD1A25F121FFAF8",
-      "AssemblyDependencyIndices": [
-        23,
-        1,
-        2,
-        3,
-        0,
-        5,
-        8,
-        9,
-        7,
-        24
-      ]
-    },
-    {
       "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerControlSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerControlSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "3d976abad0172e478eb2b1d3ef201595",
+      "ModuleHash": "0846563d29286cdba6bd908b7544d979",
       "LinkName": "B680644D89FA47E0",
       "AssemblyDependencyIndices": [
         3,
@@ -4118,10 +4087,424 @@
       ]
     },
     {
-      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerMoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerMoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.LightProbeUpdateSystem+UpdateSHValuesJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.LightProbeUpdateSystem+UpdateSHValuesJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "6221bc14d796ebe32015e5559d63ff0f",
-      "LinkName": "FC43CDEB4D6F92C7",
+      "ModuleHash": "85ebf991c0b36cfe1ffc6c86bbd2b35c",
+      "LinkName": "3BB8E5AFBAC1E7C9",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        1,
+        2,
+        5,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[Unity.Rendering.UpdateEntitiesSpecCube+UpdateJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[Unity.Rendering.UpdateEntitiesSpecCube+UpdateJob, Unity.Rendering.Hybrid, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e5ca4b067c954bed0307e5a4642c864a",
+      "LinkName": "2AC2A05A4AA8F191",
+      "AssemblyDependencyIndices": [
+        3,
+        4,
+        1,
+        2,
+        5,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[OffScreenDetectionSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[OffScreenDetectionSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3409b938e826973f104cba47addf0a64",
+      "LinkName": "66C4DDC974E8EB68",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        13,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[OffScreenWrappingSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[OffScreenWrappingSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "e47312bd2967365e361f22f1573ad87d",
+      "LinkName": "72D66DC197D0A228",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        13,
+        7,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.EntityConversionUtility+GatherEntitiesByInstanceId, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityConversionUtility+GatherEntitiesByInstanceId&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "aae8775e61a05dfdb609657a1e6506a7",
+      "LinkName": "9066E3BFBB8D8ABA",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.ComponentDataDiffer+CopyComponentDataJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.ComponentDataDiffer+CopyComponentDataJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "415e264bffe71013b9b82686adec8f4d",
+      "LinkName": "90E4D44EB3DB1D39",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        0,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.ComponentDataDiffer+ConcatResultJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.ComponentDataDiffer+ConcatResultJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "172836133450e11de414d630844f76c3",
+      "LinkName": "0AC9C9DBA9BD09C5",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        9,
+        1,
+        3,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.EntityDiffer+CopyEntityDataJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityDiffer+CopyEntityDataJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "62992afc5797fd47ff530f76f2c1645f",
+      "LinkName": "DD93CC538D76FD2A",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        0,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.EntityDiffer+ConcatResultsJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityDiffer+ConcatResultsJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "ce3d02c9cb57788fc89cc63808817346",
+      "LinkName": "E256EC82009CCA76",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        9,
+        1,
+        3,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.SharedComponentDataDiffer+CopyStateToShadowChunksJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SharedComponentDataDiffer+CopyStateToShadowChunksJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "678d36d785f037f70ae439198836f97d",
+      "LinkName": "E98FABD39094296D",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        0,
+        7,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.SharedComponentDataDiffer+PrepareResultsJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SharedComponentDataDiffer+PrepareResultsJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "2d42c31dfe09389ee35f017ef8ca3361",
+      "LinkName": "FAF9817129860A78",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        9,
+        1,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.SharedComponentDataDiffer+ConcatResultsJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SharedComponentDataDiffer+ConcatResultsJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "3c406f7e3deaeeaa8a6b69a086614ba7",
+      "LinkName": "7624B61C418A65E9",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        9,
+        1,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.EntityHierarchyDefaultGroupingStrategy+FilterEntitiesWithQueryMask, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityHierarchyDefaultGroupingStrategy+FilterEntitiesWithQueryMask&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "052bfb1d28293b3ec072d89af2c6c101",
+      "LinkName": "074340E79B72DF72",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.EntityHierarchyState+FreeChildrenListsJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityHierarchyState+FreeChildrenListsJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b9f4e356afd02c89a69814771b1fa676",
+      "LinkName": "A9D2C023DFCFE873",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        9,
+        1,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobExtensions+JobStruct`1[[Unity.Entities.Editor.SceneMapper+GetSceneSectionMappingJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SceneMapper+GetSceneSectionMappingJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "81495e99f7d43ab7e49cec2a8e062aa3",
+      "LinkName": "32F22285EC15DDA1",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        14,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.ComponentDataDiffer+GatherComponentChangesJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.ComponentDataDiffer+GatherComponentChangesJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "1daa727b808d370f4654f336fd3a8b69",
+      "LinkName": "A3ED98964A68D4FE",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.ComponentDataDiffer+AllocateNewShadowChunksJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.ComponentDataDiffer+AllocateNewShadowChunksJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "8d161f44112fa4230caf60e4c322e3fb",
+      "LinkName": "3641D8D2D444ECCE",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.EntityDiffer+GatherEntityChangesJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityDiffer+GatherEntityChangesJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "9f7a8243a78403718178c102d4a74c80",
+      "LinkName": "6D0B540E1EDFB77C",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        3,
+        1,
+        2,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.EntityDiffer+AllocateNewShadowChunksJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityDiffer+AllocateNewShadowChunksJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "033b046ac9ab9d5700d3c6881cc09d06",
+      "LinkName": "9E8C1823BF3C91A0",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        3,
+        1,
+        2,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.SharedComponentDataDiffer+GatherChangesJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SharedComponentDataDiffer+GatherChangesJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "d2bfd7f153cb66e7143de7236115ca98",
+      "LinkName": "958E23C61B724FF6",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.SharedComponentDataDiffer+AllocateNewShadowChunksJob, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.SharedComponentDataDiffer+AllocateNewShadowChunksJob&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "b5084f70e0c7435cb592e9f6ffdd71aa",
+      "LinkName": "737916BB8A66F23A",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        2,
+        3,
+        1,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Jobs.IJobParallelForExtensions+ParallelForJobStruct`1[[Unity.Entities.Editor.EntityHierarchyDefaultGroupingStrategy+FindAllChildrenOfEntity, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.Editor.EntityHierarchyDefaultGroupingStrategy+FindAllChildrenOfEntity&, Unity.DOTS.Editor, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "c29d8ffa1b3c86d0ec7f7f7069a5c1c5",
+      "LinkName": "5A92ABACB6E85F22",
+      "AssemblyDependencyIndices": [
+        5,
+        24,
+        8,
+        3,
+        2,
+        1,
+        13,
+        9,
+        7,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[InputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[InputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a6dd6b4641d91d93db2144d9a2c0f68e",
+      "LinkName": "391CA461D2E7D00B",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        25,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[MoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[MoveSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "a2afda0221abfac7f13ff9a910106077",
+      "LinkName": "93ABEE443E113494",
       "AssemblyDependencyIndices": [
         3,
         23,
@@ -4131,14 +4514,31 @@
         8,
         7,
         18,
+        13,
         9
       ]
     },
     {
-      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerRotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerRotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PrepareForDestructionIfLifeTimeIsOverSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PrepareForDestructionIfLifeTimeIsOverSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "b7b3ae212f3e1c8009640e0b240af5a0",
-      "LinkName": "8A2FA3A530903E68",
+      "ModuleHash": "564034f2fac0da07cf3d0668a54a2566",
+      "LinkName": "6326844C585B0B37",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        7,
+        9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[RotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[RotateSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "8d07d37c2221aa196ef74aa6c17da05b",
+      "LinkName": "0A67551C55554C16",
       "AssemblyDependencyIndices": [
         3,
         23,
@@ -4153,10 +4553,10 @@
       ]
     },
     {
-      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[PlayerSetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[PlayerSetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[SetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[SetMoveDirectionToUpSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
       "ModuleOptionsHash": 1809861571778145175,
-      "ModuleHash": "6496298323a5762673224d9c81057f32",
-      "LinkName": "6152D9A2B9729E3F",
+      "ModuleHash": "c046890abe4a3640b4194c7d341645b5",
+      "LinkName": "01E28BB639B637A4",
       "AssemblyDependencyIndices": [
         3,
         23,
@@ -4167,6 +4567,60 @@
         7,
         13,
         9
+      ]
+    },
+    {
+      "FullName": "Unity.Entities.JobChunkExtensions+JobChunkProducer`1[[WeaponSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Entities.JobChunkExtensions+JobChunkWrapper`1[[WeaponSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "85e199b360ae938318b9e332ebe8dd98",
+      "LinkName": "FC1B09B6929D04B0",
+      "AssemblyDependencyIndices": [
+        3,
+        23,
+        1,
+        2,
+        5,
+        8,
+        13,
+        7,
+        9,
+        0,
+        10,
+        11
+      ]
+    },
+    {
+      "FullName": "Unity.Physics.ITriggerEventJobExtensions+TriggerEventJobProcess`1[[OnPhysicsTriggerJobSystem+TriggerJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]], Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::Execute(Unity.Physics.ITriggerEventJobExtensions+TriggerEventJobData`1[[OnPhysicsTriggerJobSystem+TriggerJob, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]&, Unity.Physics, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|System.IntPtr, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089|Unity.Jobs.LowLevel.Unsafe.JobRanges&, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "8224d5f82df65b031d21fc8da40799b4",
+      "LinkName": "96649F254392ECE4",
+      "AssemblyDependencyIndices": [
+        18,
+        23,
+        1,
+        2,
+        5,
+        9,
+        8,
+        3
+      ]
+    },
+    {
+      "FullName": "InputSystem+<>c__DisplayClass_OnUpdate_LambdaJob0, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null::RunWithoutJobSystem(Unity.Entities.ArchetypeChunkIterator*, Unity.Entities, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null|System.Void*, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089)",
+      "ModuleOptionsHash": 1809861571778145175,
+      "ModuleHash": "4379f449a8043bb20f716d06b5375b82",
+      "LinkName": "891226CD3B2597F6",
+      "AssemblyDependencyIndices": [
+        23,
+        1,
+        2,
+        3,
+        0,
+        5,
+        8,
+        9,
+        7,
+        25
       ]
     }
   ]

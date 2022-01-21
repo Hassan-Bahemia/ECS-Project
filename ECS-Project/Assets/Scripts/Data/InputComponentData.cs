@@ -2,7 +2,9 @@ using Unity.Entities;
 
 public struct InputComponentData : IComponentData
 {
-    public bool _inputLeft;
-    public bool _inputRight;
-    public bool _inputForward;
+    public bool m_inputLeft;
+    public bool m_inputRight;
+    public bool m_inputForward;
+    public bool m_inputShoot;
 }
+

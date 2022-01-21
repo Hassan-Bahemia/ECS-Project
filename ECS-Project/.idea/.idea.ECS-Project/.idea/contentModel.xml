@@ -8,21 +8,40 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Data" t="Include">
+            <e p="AsteroidLibrary_Authoring.cs" t="Include" />
+            <e p="AsteroidTagComponent.cs" t="Include" />
+            <e p="DestroyableComponentData.cs" t="Include" />
             <e p="InputComponentData.cs" t="Include" />
+            <e p="LifeTimeComponentData.cs" t="Include" />
             <e p="MovementCommandsComponentData.cs" t="Include" />
-            <e p="MovementParamComponentData.cs" t="Include" />
-            <e p="MovingUpDirectionComponentData.cs" t="Include" />
+            <e p="MovementParametersComponentData.cs" t="Include" />
+            <e p="MovingInUpDirectionComponent.cs" t="Include" />
+            <e p="OffScreenWrapperComponentData.cs" t="Include" />
+            <e p="OffScreenWrapperComponentData_Authoring.cs" t="Include" />
+            <e p="PlayerLibraryComponentData_Authoring.cs" t="Include" />
             <e p="PlayerTagComponent.cs" t="Include" />
+            <e p="ProjectileTagComponent.cs" t="Include" />
+            <e p="ScreenInfoComponentData.cs" t="Include" />
+            <e p="ScreenInfoComponentData_Authoring.cs" t="Include" />
+            <e p="WeaponComponentData.cs" t="Include" />
           </e>
           <e p="MonoStuff" t="Include">
             <e p="BootStrapper.cs" t="Include" />
           </e>
           <e p="Player" t="Include">
+            <e p="AsteroidDestructrionSystem.cs" t="Include" />
+            <e p="InputSystem.cs" t="Include" />
+            <e p="LaserDestructionSystem.cs" t="Include" />
+            <e p="MoveSystem.cs" t="Include" />
+            <e p="OffScreenDetectionSystem.cs" t="Include" />
+            <e p="OffScreenWrappingSystem.cs" t="Include" />
+            <e p="OnPhysicsTriggerJobSystem.cs" t="Include" />
             <e p="PlayerControlSystem.cs" t="Include" />
-            <e p="PlayerInputSystem.cs" t="Include" />
-            <e p="PlayerMoveSystem.cs" t="Include" />
-            <e p="PlayerRotateSystem.cs" t="Include" />
-            <e p="PlayerSetMoveDirectionToUpSystem.cs" t="Include" />
+            <e p="PlayerDestructionSystem.cs" t="Include" />
+            <e p="PrepareForDestructionIfLifeTimeIsOverSystem.cs" t="Include" />
+            <e p="RotateSystem.cs" t="Include" />
+            <e p="SetMoveDirectionToUpSystem.cs" t="Include" />
+            <e p="WeaponSystem.cs" t="Include" />
           </e>
         </e>
       </e>
