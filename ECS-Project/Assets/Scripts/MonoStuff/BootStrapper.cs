@@ -92,9 +92,9 @@ public class BootStrapper : MonoBehaviour
             m_asteroidSpawnFrequency -= m_increaseSpawnValue;
         }
 
-        if (m_asteroidSpawnFrequency <= 0.04f)
+        if (m_asteroidSpawnFrequency <= 0.12f)
         {
-            m_asteroidSpawnFrequency = 0.04f;
+            m_asteroidSpawnFrequency = 0.12f;
         }
 
         if (m_currentTimer > m_asteroidSpawnFrequency)
